@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: rgb(48, 48, 48);
+  color:white;
 }
 
 h1,h2,h3 {

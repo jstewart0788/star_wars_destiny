@@ -1,4 +1,5 @@
-import { MuiThemeProvider } from 'material-ui/styles';
+import { MuiThemeProvider, getMuiTheme } from 'material-ui/styles';
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -24,7 +25,7 @@ const history = syncHistoryWithStore(browserHistory, store);
 
 ReactDOM.render(
   <Provider store={store}>
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
       <Router history={history} routes={routes} />
      </MuiThemeProvider>
   </Provider>,
