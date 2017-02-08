@@ -14,7 +14,7 @@ I'm open to anyone who wants to join or collabortate, I'm an avid tabletop gamer
 assist gameplay for a multitude of games.
 
 All Backend functionally is implemented on the [deck_api repo](https://github.com/jstewart0788/deck_api), however this is the
-main repository and readme for both. Website available at: <jonathanstewart.us>
+main repository and readme for both. Website available at: <http://www.jonathanstewart.us>
 
 ## Todo List
 1. [ ] User DB/ API Routes - Backend Security
