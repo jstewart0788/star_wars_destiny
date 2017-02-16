@@ -1,20 +1,11 @@
-import React, { Component } from 'react';
-import { css } from 'aphrodite';
+import React from 'react';
+import Header from '../Header';
 
-import styles from './App_Styles'
-import Header from '../Header'
-
-class App extends Component {
-  render() {
+export default function App(props){
     return (
       <div>
         <Header />
-        <div className={css(styles.flexRow)}>
-          <h2>Coming Soon</h2>
-        </div>
+        {props.children}
       </div>
     );
-  }
 }
-
-export default App;
