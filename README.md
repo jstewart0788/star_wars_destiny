@@ -17,7 +17,7 @@ All Backend functionally is implemented on the [deck_api repo](https://github.co
 main repository and readme for both. Website available at: <http://www.jonathanstewart.us>
 
 ## Todo List
-1. [ ] User DB/ API Routes - Backend Security
+1. [x] User DB/ API Routes - Backend Security
 2. [ ] Login/Nav Bar/User Specific Pages -  Front End Security 
 3. [ ] Collection DB / API Routes - Card Collection Backend Infastructure
 4. [ ] Home Page - Front End Collection Dispaly
